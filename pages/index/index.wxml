@@ -1,0 +1,50 @@
+<!--index.wxml-->
+<view class="container">
+	<view class="head_area">
+		<view class="title_text">模法学院</view>
+		<view class="icon_area">
+			<image src="cloud://mocktrial12138.6d6f-mocktrial12138-1301499062/logo/logo2.png" mode="aspectFix" class="icon_inner_image" ></image>
+		</view>
+	</view>
+	<view class="list_area">
+		<view class="button_t top" bindtap="ToStudy">
+			<view class="list_button_title">
+				<view class="list_button_left_icon">
+					<i class="material-icons">
+						lock_open
+					</i>
+				</view>
+				<view class="list_button_title_text">
+					MT for everyone 学习体系
+				</view>
+			</view>
+			<view class="list_button_right_icon"><i class="material-icons">chevron_right</i></view>
+		</view>
+		<view class="button_t" bindtap="ToCl">
+			<view class="list_button_title">
+				<view class="list_button_left_icon">
+					<i class="material-icons">
+						assignment
+					</i>
+				</view>
+				<view class="list_button_title_text">
+					案件合集
+				</view>
+			</view>
+			<view class="list_button_right_icon"><i class="material-icons">chevron_right</i></view>
+		</view>
+		<view class="button_t" bindtap="ToAC">
+			<view class="list_button_title">
+				<view class="list_button_left_icon">
+					<i class="material-icons">
+						present_to_all
+					</i>
+				</view>
+				<view class="list_button_title_text">
+						联系我们
+				</view>
+			</view>
+			<view class="list_button_right_icon"><i class="material-icons">chevron_right</i></view>
+		</view>
+	</view>
+</view>

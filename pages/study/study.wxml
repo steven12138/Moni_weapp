@@ -1,0 +1,51 @@
+<!--pages/case/case.wxml-->
+<view class="container">
+	<view class="basic_info menu_card">
+		<view class="title_part">
+			<image class="title_part_image" src="cloud://mocktrial12138.6d6f-mocktrial12138-1301499062/cover/c1.png" mode="aspectFill"></image>
+			<text class="title_part_title c1c">基础知识</text>
+		</view>
+		<view class="content_part">
+			<van-cell title="律师说" is-link />
+			<van-cell title="证人说" is-link />
+			<van-collapse class="collapse" value="{{activeNames1}}" bind:change="onChange1" accordion>
+				<van-collapse-item title="准备指南" name="1">
+					<van-cell title="开庭陈述" is-link />
+					<van-cell title="直接询问" is-link />
+					<van-cell title="交叉询问" is-link />
+					<van-cell title="结庭陈述" is-link />
+				</van-collapse-item>
+			</van-collapse>
+		</view>
+	</view>
+	<view class="teach_solution menu_card">
+		<view class="title_part">
+			<image class="title_part_image" src="cloud://mocktrial12138.6d6f-mocktrial12138-1301499062/cover/c1.png" mode="aspectFill"></image>
+			<text class="title_part_title c2c">教学方法</text>
+		</view>
+		<view class="content_part">
+			<van-cell title="Peer Potential Mock Trial全国赛体系" is-link />
+			<van-cell title="美国StreetLaw教学体系" is-link />
+		</view>
+	</view>
+	<view class="club_guide menu_card last">
+		<view class="title_part">
+			<image class="title_part_image" src="cloud://mocktrial12138.6d6f-mocktrial12138-1301499062/cover/c3.png" mode="aspectFill"></image>
+			<text class="title_part_title">社团指南</text>
+		</view>
+		<view class="content_part">
+			<van-collapse class="collapse" value="{{activeNames2}}" bind:change="onChange2" accordion>
+				<van-collapse-item title="前期准备" name="1">
+					<van-cell title="社团定位" is-link />
+					<van-cell title="社团受众" is-link />
+				</van-collapse-item>
+			</van-collapse>
+			<van-cell title="社团内部结构" is-link />
+			<van-collapse class="collapse" value="{{activeNames3}}" bind:change="onChange3" accordion>
+				<van-collapse-item title="社团活动" name="1">
+					<van-cell title="线上资源" is-link />
+				</van-collapse-item>
+			</van-collapse>
+		</view>
+	</view>
+</view>

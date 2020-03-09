@@ -1,0 +1,52 @@
+<!--pages/study/study.wxml-->
+<view class="container">
+	<view class="menu_list_card history_exa top">
+		<view class="left_item">
+			<view class="icon">
+				<i class="material-icons">access_time</i>
+			</view>
+			<view class="title">历史案件</view>
+		</view>
+		<view class="right_item">
+			<view class="link_icon"><i class="material-icons">arrow_forward_ios</i>
+			</view>
+		</view>
+	</view>
+	<view class="menu_list_card near_com">
+		<view class="left_item">
+			<view class="icon">
+				<i class="material-icons">local_library</i>
+			</view>
+			<view class="title">往期模法比赛</view>
+		</view>
+		<view class="right_item">
+			<view class="link_icon"><i class="material-icons">arrow_forward_ios</i>
+			</view>
+		</view>
+	</view>
+	<view class="menu_list_card near_hot">
+		<view class="left_item">
+			<view class="icon">
+				<i class="material-icons">fireplace</i>
+			</view>
+			<view class="title">近期热点</view>
+		</view>
+		<view class="right_item">
+			<view class="link_icon"><i class="material-icons">arrow_forward_ios</i>
+			</view>
+		</view>
+	</view>
+	<view class="menu_list_card more">
+		<view class="left_item">
+			<view class="icon">
+				<i class="material-icons">
+					more_horiz
+				</i>
+			</view>
+			<view class="title">更多内容开发中</view>
+		</view>
+		<view class="right_item">
+			<view class="link_icon"></view>
+		</view>
+	</view>
+</view>

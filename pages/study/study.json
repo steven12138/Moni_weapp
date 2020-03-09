@@ -1,0 +1,9 @@
+{
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "van-collapse": "@vant/weapp/collapse",
+    "van-collapse-item": "@vant/weapp/collapse-item",
+    "van-cell":"@vant/weapp/cell"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "desc": "模拟法庭",
+  "rules": [{
+  "action": "allow",
+  "page": "*"
+  }]
+}

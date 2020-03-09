@@ -1,0 +1,8 @@
+/**app.wxss**/
+@import "./icon//material-icon.wxss";
+
+.container {
+  min-height: 100vh;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
