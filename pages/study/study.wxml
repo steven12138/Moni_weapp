@@ -20,7 +20,7 @@
 	</view>
 	<view class="teach_solution menu_card">
 		<view class="title_part">
-			<image class="title_part_image" src="cloud://mocktrial12138.6d6f-mocktrial12138-1301499062/cover/c1.png" mode="aspectFill"></image>
+			<image class="title_part_image" src="cloud://mocktrial12138.6d6f-mocktrial12138-1301499062/cover/c2.png" mode="aspectFill"></image>
 			<text class="title_part_title c2c">教学方法</text>
 		</view>
 		<view class="content_part">
