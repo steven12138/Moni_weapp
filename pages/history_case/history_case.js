@@ -1,5 +1,4 @@
-// pages/study/study.js
-var WxParse = require('../../wxParse/wxParse.js');
+// pages/history_case/history_case.js
 Page({
 
   /**
@@ -12,12 +11,10 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {},
-  Tohis:function(){
-    wx.navigateTo({
-      url: '../history_case/history_case',
-    })
+  onLoad: function (options) {
+
   },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/history_case/history_case",
     "pages/case/case",
     "pages/study/study",
     "pages/logs/logs",
