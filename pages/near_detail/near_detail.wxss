@@ -1,0 +1,26 @@
+/* pages/near_detail/near_detail.wxss */
+/* pages/history_detail/history_detail.wxss */
+@import "../../wxParse/wxParse.wxss";
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+
+.h1 {
+  margin-top: 7px;
+  font-size: 2em;
+  letter-spacing: 2px;
+  font-weight: 400px;
+}
+
+.lake-engine{
+  margin-bottom: 20px !important;
+}
+
+.van-divider {
+  margin-top: 2px !important;
+  margin-bottom: 4px !important;
+}

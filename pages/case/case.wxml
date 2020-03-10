@@ -12,7 +12,7 @@
 			</view>
 		</view>
 	</view>
-	<view class="menu_list_card near_com">
+	<view class="menu_list_card near_com" bindtap="ToNC">
 		<view class="left_item">
 			<view class="icon">
 				<i class="material-icons">local_library</i>

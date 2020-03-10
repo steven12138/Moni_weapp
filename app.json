@@ -6,7 +6,9 @@
     "pages/case/case",
     "pages/study/study",
     "pages/logs/logs",
-    "pages/contact/contact"
+    "pages/contact/contact",
+    "pages/near_com/near_com",
+    "pages/near_detail/near_detail"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -18,6 +18,11 @@ Page({
       url: '../history_case/history_case',
     })
   },
+  ToNC:function(){
+    wx.navigateTo({
+      url: '../near_com/near_com',
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

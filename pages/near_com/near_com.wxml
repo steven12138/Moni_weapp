@@ -1,4 +1,4 @@
-<!--pages/history_case/history_case.wxml-->
+<!--pages/near_com/near_com.wxml-->
 <view class="container">
 	<view class="menu_card" wx:for="{{msglist}}" wx:key="unqiue" data-id="{{item._id}}" bindtap="Todetail">
 		<view class="title_part">

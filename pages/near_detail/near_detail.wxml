@@ -1,0 +1,8 @@
+<!--pages/near_detail/near_detail.wxml-->
+<!--pages/history_detail/history_detail.wxml-->
+<import src="../../wxParse/wxParse.wxml"/>
+<view class="container">
+  <view class="h1">{{title}}</view>
+  <van-divider>{{time}}</van-divider>
+  <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+</view>

@@ -1,4 +1,4 @@
-// pages/history_case/history_case.js
+// pages/near_com/near_com.js
 Page({
 
   /**
@@ -15,13 +15,14 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    var self=this;
     wx.showToast({
       title: '加载中',
-      icon:'loading',
-      duration:1500,
+      icon: 'loading',
+      duration: 1500,
     });
     wx.cloud.callFunction({
-      name: 'gethisinfo',
+      name: 'getnearinfo',
       data: {
         page: 1
       },
@@ -36,7 +37,7 @@ Page({
           console.log(self.data.isEmpty);
           return;
         }
-        this.setData({
+        self.setData({
           msglist: res
         });
       }
@@ -47,7 +48,7 @@ Page({
     var id = event.currentTarget.dataset.id;
     // console.log(id);
     wx.navigateTo({
-      url: '../history_detail/history_detail?id='+id,
+      url: '../near_detail/near_detail?id=' + id,
     });
   },
   /**
@@ -89,15 +90,15 @@ Page({
     if(this.data.isEmpty)return;
     wx.showToast({
       title: '加载中',
-      icon:'loading',
-      duration:1500,
+      icon: 'loading',
+      duration: 1500,
     });
     var self = this;
     console.log(this.data.msglist);
     if (!this.data.havemore) return;
     var page = this.data.pagenum + 1;
     wx.cloud.callFunction({
-      name: 'gethisinfo',
+      name: 'getnearinfo',
       data: {
         page: page
       },
@@ -109,8 +110,8 @@ Page({
           })
           wx.showToast({
             title: '没有更多了',
-            icon:'error',
-            duration:1500,
+            icon: 'error',
+            duration: 1500,
           });
           return;
         }

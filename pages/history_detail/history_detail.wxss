@@ -15,6 +15,10 @@
   font-weight: 400px;
 }
 
+.lake-engine{
+  margin-bottom: 20px !important;
+}
+
 .van-divider {
   margin-top: 2px !important;
   margin-bottom: 4px !important;
