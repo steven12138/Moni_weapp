@@ -12,7 +12,15 @@
 }
 
 .container {
-  height:1vh !important;
+  height: 1vh !important;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+@media screen and (max-width: 350px) {
+  .container {
+    font-size: 0.9em;
+  }
 }
 
 .icon_area {
@@ -40,7 +48,7 @@
 .title_text {
   margin-top: 30px;
   font-size: 1.2em;
-  color:white
+  color: white
 }
 
 .list_area {
@@ -62,38 +70,38 @@
   margin-bottom: 10px;
 }
 
-.top{
-  margin-top:110px !important;
+.top {
+  margin-top: 110px !important;
 }
 
-.button_t{
-  width:85%;
-  height:100px;
-  margin:15px;
+.button_t {
+  width: 85%;
+  height: 100px;
+  margin: 15px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   border-radius: 4px;
-  box-shadow: 0 10px 11px 0 rgba(148, 148, 148, 0.18), 0 5px 15px 0 rgba(148, 148, 148, 0.17), 0 5px 14px -1px rgba(148, 148, 148, 0.08); 
+  box-shadow: 0 10px 11px 0 rgba(148, 148, 148, 0.18), 0 5px 15px 0 rgba(148, 148, 148, 0.17), 0 5px 14px -1px rgba(148, 148, 148, 0.08);
 }
 
-.list_button_title{
+.list_button_title {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 20px;
 }
 
-.list_button_left_icon{
+.list_button_left_icon {
   margin-top: 3px;
 }
 
-.list_button_title_text{
+.list_button_title_text {
   font-size: 1.1em;
   margin-left: 10px;
 }
 
-.list_button_right_icon{
-  margin-right:10px;
-  margin-top:3px;
+.list_button_right_icon {
+  margin-right: 10px;
+  margin-top: 3px;
 }

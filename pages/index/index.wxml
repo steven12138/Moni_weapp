@@ -3,7 +3,7 @@
 	<view class="head_area">
 		<view class="title_text">模法学院</view>
 		<view class="icon_area">
-			<image src="cloud://mocktrial12138.6d6f-mocktrial12138-1301499062/logo/logo2.png" mode="aspectFix" class="icon_inner_image" ></image>
+			<image src="https://ae01.alicdn.com/kf/H9e5e204a91494335a36384a62be0d2283.png" mode="aspectFix" class="icon_inner_image" ></image>
 		</view>
 	</view>
 	<view class="list_area">

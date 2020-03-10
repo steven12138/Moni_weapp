@@ -2,7 +2,7 @@
 <view class="container">
 	<view class="basic_info menu_card">
 		<view class="title_part">
-			<image class="title_part_image" src="cloud://mocktrial12138.6d6f-mocktrial12138-1301499062/cover/c1.png" mode="aspectFill"></image>
+			<image class="title_part_image" src="https://ae01.alicdn.com/kf/Hf6b26ef03514431a9c16e33a0687a3a18.png" mode="aspectFill"></image>
 			<text class="title_part_title c1c">基础知识</text>
 		</view>
 		<view class="content_part">
@@ -20,7 +20,7 @@
 	</view>
 	<view class="teach_solution menu_card">
 		<view class="title_part">
-			<image class="title_part_image" src="cloud://mocktrial12138.6d6f-mocktrial12138-1301499062/cover/c2.png" mode="aspectFill"></image>
+			<image class="title_part_image" src="https://ae01.alicdn.com/kf/H8433f0d147754e2baca46d0cbf57efa8V.png" mode="aspectFill"></image>
 			<text class="title_part_title c2c">教学方法</text>
 		</view>
 		<view class="content_part">
@@ -30,7 +30,7 @@
 	</view>
 	<view class="club_guide menu_card last">
 		<view class="title_part">
-			<image class="title_part_image" src="cloud://mocktrial12138.6d6f-mocktrial12138-1301499062/cover/c3.png" mode="aspectFill"></image>
+			<image class="title_part_image" src="https://ae01.alicdn.com/kf/H1f9cd094005e407cb57a7b24bfdc5f66P.png" mode="aspectFill"></image>
 			<text class="title_part_title">社团指南</text>
 		</view>
 		<view class="content_part">
