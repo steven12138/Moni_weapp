@@ -23,6 +23,11 @@ Page({
       url: '../near_com/near_com',
     })
   },
+  ToHot:function(){
+    wx.navigateTo({
+      url: '../near_hot/near_hot',
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

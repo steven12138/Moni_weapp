@@ -8,7 +8,9 @@
     "pages/logs/logs",
     "pages/contact/contact",
     "pages/near_com/near_com",
-    "pages/near_detail/near_detail"
+    "pages/near_detail/near_detail",
+    "pages/near_hot/near_hot",
+    "pages/hot_detail/hot_detail"
   ],
   "window": {
     "backgroundTextStyle": "light",

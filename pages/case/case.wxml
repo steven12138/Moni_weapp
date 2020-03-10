@@ -24,7 +24,7 @@
 			</view>
 		</view>
 	</view>
-	<view class="menu_list_card near_hot">
+	<view class="menu_list_card near_hot" bindtap="ToHot">
 		<view class="left_item">
 			<view class="icon">
 				<i class="material-icons">fireplace</i>
@@ -36,17 +36,17 @@
 			</view>
 		</view>
 	</view>
-	<view class="menu_list_card more">
+	<!-- <view class="menu_list_card more">
 		<view class="left_item">
 			<view class="icon">
 				<i class="material-icons">
 					more_horiz
 				</i>
 			</view>
-			<view class="title">更多内容开发中</view>
+			<view class="title">敬请期待</view>
 		</view>
 		<view class="right_item">
 			<view class="link_icon"></view>
 		</view>
-	</view>
+	</view> -->
 </view>

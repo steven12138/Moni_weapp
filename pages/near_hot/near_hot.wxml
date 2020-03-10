@@ -1,0 +1,12 @@
+<!--pages/near_hot/near_hot.wxml-->
+<view class="container">
+	<view class="menu_card" wx:for="{{msglist}}" wx:key="unqiue" data-id="{{item._id}}" bindtap="Todetail">
+		<view class="title_part">
+			<image class="title_part_image" src="{{item.coverUrl}}" mode="aspectFill"></image>
+		</view>
+		<view class="content_part">
+			<text class="title">{{item.title}}</text>
+		</view>
+	</view>
+	<van-divider wx:if="{{isEmpty}}">暂无内容</van-divider>
+</view>

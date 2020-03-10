@@ -8,7 +8,7 @@ Page({
     msglist: [],
     pagenum: 1,
     havemore: true,
-    isEmpty:false,
+    isEmpty: false,
   },
 
   /**
@@ -17,8 +17,8 @@ Page({
   onLoad: function (options) {
     wx.showToast({
       title: '加载中',
-      icon:'loading',
-      duration:1500,
+      icon: 'loading',
+      duration: 1500,
     });
     wx.cloud.callFunction({
       name: 'gethisinfo',
@@ -28,10 +28,9 @@ Page({
       success: res => {
         res = res.result;
         console.log("loadflash", res);
-        if(res.length==undefined)
-        {
+        if (res.length == undefined) {
           self.setData({
-            isEmpty:true,
+            isEmpty: true,
           })
           console.log(self.data.isEmpty);
           return;
@@ -47,7 +46,7 @@ Page({
     var id = event.currentTarget.dataset.id;
     // console.log(id);
     wx.navigateTo({
-      url: '../history_detail/history_detail?id='+id,
+      url: '../history_detail/history_detail?id=' + id,
     });
   },
   /**
@@ -86,11 +85,11 @@ Page({
    * 页面上拉触底事件的处理函数
    */
   onReachBottom: function () {
-    if(this.data.isEmpty)return;
+    if (this.data.isEmpty) return;
     wx.showToast({
       title: '加载中',
-      icon:'loading',
-      duration:1500,
+      icon: 'loading',
+      duration: 1500,
     });
     var self = this;
     console.log(this.data.msglist);
@@ -103,14 +102,14 @@ Page({
       },
       success: res => {
         res = res.result;
-        if (res == undefined) {
+        if (res == undefined || res.length == 0) {
           self.setData({
             havemore: false,
           })
           wx.showToast({
             title: '没有更多了',
-            icon:'error',
-            duration:1500,
+            icon: 'error',
+            duration: 1500,
           });
           return;
         }

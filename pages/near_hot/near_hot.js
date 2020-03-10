@@ -1,4 +1,4 @@
-// pages/near_com/near_com.js
+// pages/near_hot/near_hot.js
 Page({
 
   /**
@@ -22,14 +22,15 @@ Page({
       duration: 1500,
     });
     wx.cloud.callFunction({
-      name: 'getnearinfo',
+      name: 'gethotinfo',
       data: {
         page: 1
       },
       success: res => {
         res = res.result;
         console.log("loadflash", res);
-        if (res.length == undefined || res.length == 0) {
+        console.log(res);
+        if (res.length == undefined || res.length==0) {
           self.setData({
             isEmpty: true,
           })
@@ -47,7 +48,7 @@ Page({
     var id = event.currentTarget.dataset.id;
     // console.log(id);
     wx.navigateTo({
-      url: '../near_detail/near_detail?id=' + id,
+      url: '../hot_detail/hot_detail?id=' + id,
     });
   },
   /**
@@ -97,7 +98,7 @@ Page({
     if (!this.data.havemore) return;
     var page = this.data.pagenum + 1;
     wx.cloud.callFunction({
-      name: 'getnearinfo',
+      name: 'gethotinfo',
       data: {
         page: page
       },
