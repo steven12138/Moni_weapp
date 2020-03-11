@@ -2,7 +2,7 @@
 <view class="container">
 	<view class="about-title">
 		<image class="app-image" src="../../icon/logo.jpg" bindlongtap="view1" bindtap="onPressHandler2"></image>
-		<text class="app-name">BDFinder</text>
+		<text class="app-name">模法学院</text>
 		<text class="app-subtitle" bindtap="onPressHandler">{{versionCode}} - {{buildDate}}</text>
 		<text class="app-subtitle">北京中学生模拟法庭联盟 创立</text>
 	</view>
