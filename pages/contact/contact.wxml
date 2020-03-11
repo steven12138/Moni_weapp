@@ -1,2 +1,38 @@
 <!--pages/contact/contact.wxml-->
-<text>联系我们页面</text>
+<view class="container">
+	<view class="about-title">
+		<image class="app-image" src="../../icon/logo.jpg" bindlongtap="view1" bindtap="onPressHandler2"></image>
+		<text class="app-name">BDFinder</text>
+		<text class="app-subtitle" bindtap="onPressHandler">{{versionCode}} - {{buildDate}}</text>
+		<text class="app-subtitle">北京中学生模拟法庭联盟 创立</text>
+	</view>
+	<view class="content">
+		<text class="content-title">联系我们</text>
+		<button open-type="contact" class="contact_button single-card">
+			<text>在线客服</text>
+			<text class="right_arrow">></text>
+		</button>
+		<text class="content-title">开发者</text>
+		<view class="single-card">
+			<text>steven12138</text>
+			<text>小程序开发</text>
+		</view>
+		<!-- <view class="content-title">致谢</view> -->
+		<!-- <view style="font-size: 11pt;line-height: 1.6em" bindlongtap="">感谢相关教师与单位对我们的资源支持。感谢您使用本小程序！</view> -->
+		<view wx:if="{{techInfo>5}}">
+			<view class="content-title">高级信息</view>
+			<view class="single-card rev" bindlongtap="copyOpenID">
+				<text selectable="true">{{UserInfo.openid || '暂无'}}</text>
+				<text>OpenID</text>
+			</view>
+			<view class="single-card rev">
+				<text>{{UserInfo.appid || '暂无'}}</text>
+				<text>AppID</text>
+			</view>
+			<view class="single-card rev">
+				<text>{{UserInfo.ipv4 || '暂无'}}</text>
+				<text>IP</text>
+			</view>
+		</view>
+	</view>
+</view>

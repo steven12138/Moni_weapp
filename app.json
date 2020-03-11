@@ -1,12 +1,12 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/contact/contact",
     "pages/history_case/history_case",
     "pages/history_detail/history_detail",
     "pages/case/case",
     "pages/study/study",
     "pages/logs/logs",
-    "pages/contact/contact",
     "pages/near_com/near_com",
     "pages/near_detail/near_detail",
     "pages/near_hot/near_hot",

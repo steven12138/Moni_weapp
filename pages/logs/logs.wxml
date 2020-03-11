@@ -1,5 +1,6 @@
 <!--logs.wxml-->
 <view class="container log-list">
+  <text style="font-size:1.246em;">小程序使用记录,共打开{{logs.length}}次</text>
   <block wx:for="{{logs}}" wx:for-item="log">
     <text class="log-item">{{index + 1}}. {{log}}</text>
   </block>
