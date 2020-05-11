@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/study_item/study_item",
     "pages/index/index",
     "pages/contact/contact",
     "pages/history_case/history_case",

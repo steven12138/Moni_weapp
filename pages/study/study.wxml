@@ -6,7 +6,7 @@
 			<text class="title_part_title c1c">基础知识</text>
 		</view>
 		<view class="content_part">
-			<van-cell title="律师说" is-link />
+			<van-cell title="律师说" is-link 	/>
 			<van-cell title="证人说" is-link />
 			<van-collapse class="collapse" value="{{activeNames1}}" bind:change="onChange1" accordion>
 				<van-collapse-item title="准备指南" name="1">
