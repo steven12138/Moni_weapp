@@ -33,6 +33,10 @@
 				<text>{{UserInfo.ipv4 || '暂无'}}</text>
 				<text>IP</text>
 			</view>
+				<view class="single-card rev">
+				<text>{{UserInfo.unionid || '暂无'}}</text>
+				<text>IP</text>
+			</view>
 		</view>
 	</view>
 </view>

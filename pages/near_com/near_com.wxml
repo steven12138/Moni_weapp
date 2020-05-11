@@ -2,7 +2,7 @@
 <view class="container">
 	<view class="menu_card" wx:for="{{msglist}}" wx:key="unqiue" data-id="{{item._id}}" bindtap="Todetail">
 		<view class="title_part">
-			<image class="title_part_image" src="{{item.coverUrl}}" mode="aspectFill"></image>
+			<image class="title_part_image" src="{{item.coverUrl}}" mode="aspectFit"></image>
 		</view>
 		<view class="content_part">
 			<text class="title">{{item.title}}</text>
