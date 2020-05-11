@@ -5,14 +5,56 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    id: '',
+    title:'XXXX',
+    time:'01 Jan 1970 00:00:00',
+    htmlc:'',
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    wx.showToast({
+      title: 'loading',
+      icon:"loading",
+      duration:1000,
+    });
+    console.log(options.id);
+    var sid=options.id;
+    // sid="5e847ab25eb8b2440096a1ab49537642"
+    this.setData({
+      id:sid,
+    });
+    var self = this;
+    wx.cloud.callFunction({
+      name:'getstudyinfoByid',
+      data:{
+        id:sid,
+      },
+      success:res=>{
+        res=res.result;
+        var date=new Date(res.time).toGMTString();
+        date=date.slice(4,date.length-4);
+        console.log(date);
+        self.setData({
+          title:res.title,
+          time:date,
+        });
+      }
+    });
+    wx.cloud.callFunction({
+      name: 'getstudycontent',
+      data: {
+        id: sid,
+      },
+      success: res => {
+        var article = res.result;
+        self.setData({
+          htmlc:article
+        });
+      }
+    });
   },
 
   /**

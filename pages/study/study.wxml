@@ -10,7 +10,7 @@
 			<van-cell title="证人说" is-link />
 			<van-collapse class="collapse" value="{{activeNames1}}" bind:change="onChange1" accordion>
 				<van-collapse-item title="准备指南" name="1">
-					<van-cell title="开庭陈述" is-link />
+					<van-cell title="开庭陈述" is-link url="/pages/study_item/study_item?id=5e847ab25eb8b2440096a1ab49537642" />
 					<van-cell title="直接询问" is-link />
 					<van-cell title="交叉询问" is-link />
 					<van-cell title="结庭陈述" is-link />

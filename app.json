@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/study_item/study_item",
     "pages/index/index",
+    "pages/study_item/study_item",
     "pages/contact/contact",
     "pages/history_case/history_case",
     "pages/history_detail/history_detail",

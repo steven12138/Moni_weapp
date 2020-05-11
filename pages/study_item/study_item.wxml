@@ -1,2 +1,7 @@
 <!--pages/study_item/study_item.wxml-->
-<text>pages/study_item/study_item.wxml</text>
+<view class="container">
+  <view class="h1">{{title}}</view>
+  <van-divider>{{time}}</van-divider>
+  <parser html="{{htmlc}}" />
+</view>
+
