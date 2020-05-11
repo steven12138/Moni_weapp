@@ -1,5 +1,4 @@
 // pages/study/study.js
-var WxParse = require('../../wxParse/wxParse.js');
 Page({
 
   /**

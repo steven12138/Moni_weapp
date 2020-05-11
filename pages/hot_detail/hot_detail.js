@@ -1,5 +1,4 @@
 // pages/hot_detail/hot_detail.js
-var WxParse = require('../../wxParse/wxParse.js');
 Page({
 
   /**
@@ -9,6 +8,7 @@ Page({
     id: '',
     title:'XXXX',
     time:'01 Jan 1970 00:00:00',
+    htmlc:'',
   },
 
   /**
@@ -49,7 +49,9 @@ Page({
       },
       success: res => {
         var article = res.result;
-        WxParse.wxParse('article', 'html', article, self, 5);
+        self.setData({
+          htmlc:article,
+        });
       }
     })
   },

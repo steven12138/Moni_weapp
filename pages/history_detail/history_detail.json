@@ -2,6 +2,7 @@
   "navigationBarBackgroundColor": "#fff",
   "navigationBarTextStyle": "black",
   "usingComponents": {
-    "van-divider": "@vant/weapp/divider"
+    "van-divider": "@vant/weapp/divider",
+    "parser": "../../components/parser/parser"
   }
 }

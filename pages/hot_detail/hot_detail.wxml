@@ -1,8 +1,7 @@
 <!--pages/hot_detail/hot_detail.wxml-->
-<import src="../../wxParse/wxParse.wxml"/>
 <view class="container">
   <view class="h1">{{title}}</view>
   <van-divider>{{time}}</van-divider>
-  <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+  <parser html="{{htmlc}}" />
 </view>
 

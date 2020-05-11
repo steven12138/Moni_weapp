@@ -4,5 +4,5 @@
 <view class="container">
   <view class="h1">{{title}}</view>
   <van-divider>{{time}}</van-divider>
-  <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+  <parser html="{{htmlc}}" />
 </view>

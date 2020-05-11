@@ -1,9 +1,8 @@
 /* pages/history_detail/history_detail.wxss */
-@import "../../wxParse/wxParse.wxss";
 
 .container {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
   text-align: justify;
   text-justify: inter-ideograph;
 }
