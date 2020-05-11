@@ -36,7 +36,7 @@ App({
   },
   globalData: {
     userInfo: null,
-    appVersion: '0.0.8.0',
-    branch: 'bb772642'
+    appVersion: '0.8.0.0',
+    branch: '92a8477b'
   }
 })
